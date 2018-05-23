@@ -7,6 +7,5 @@ Build-Depends: debhelper (>= 9),
 
 Package: calico
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
-
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Calico CLI tool and Calico network plugin for CNI

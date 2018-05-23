@@ -1,0 +1,3 @@
+calico opt/cni/bin
+calico-ipam opt/cni/bin
+calicoctl usr/bin

@@ -1,0 +1,12 @@
+Source: calico
+Maintainer: Jessica Toscani <jessica@exoscale.ch>
+Build-Depends: debhelper (>= 9),
+               wget, ca-certificates, lsb-release,
+               dh-systemd,
+               zip
+
+Package: calico
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends},
+
+Description: Calico CLI tool and Calico network plugin for CNI

@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 DISTRIBUTION = $(shell lsb_release -sc)
-VERSION = 3.1.2
+VERSION = 3.3.0
 PACKAGEVERSION = $(VERSION)-0~$(DISTRIBUTION)3
 URL1 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico
 URL2 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico-ipam

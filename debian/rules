@@ -12,9 +12,9 @@ URL3 = https://github.com/projectcalico/calicoctl/releases/download/v$(VERSION)/
 	dh $@
 
 override_dh_auto_build:
-	wget -N --progress=dot:mega $(URL1)
-	wget -N --progress=dot:mega $(URL2)
-	wget -N --progress=dot:mega $(URL3)
+	wget -N --progress=dot:mega $(URL1) -O calico
+	wget -N --progress=dot:mega $(URL2) -O calico-ipam
+	wget -N --progress=dot:mega $(URL3) -O calicoctl
 	chmod +x calico*
 
 override_dh_link:

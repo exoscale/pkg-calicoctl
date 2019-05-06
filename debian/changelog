@@ -3,3 +3,9 @@ calico (0.0-0) UNRELEASED; urgency=medium
   *  Initialize package for calico cni plugin and calicoctl
 
  -- Jessica Toscani <jessica@exoscale.ch>  Wed, 23 May 2018 08:55:00 +0200
+
+calico (0.0-1) UNRELEASED; urgency=medium
+
+  *  Update calico to version 3.7.0
+
+ -- Alessandro Ratti <alessandro@exoscale.ch> Mon May  6 2019 18:17:07 +0200

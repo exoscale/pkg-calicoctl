@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 DISTRIBUTION = $(shell lsb_release -sc)
-VERSION = 3.7.1
+VERSION = 3.7.2
 PACKAGEVERSION = $(VERSION)-0~$(DISTRIBUTION)0
 URL1 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico-amd64
 URL2 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico-ipam-amd64

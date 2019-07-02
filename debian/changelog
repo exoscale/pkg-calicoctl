@@ -9,3 +9,9 @@ calico (0.0-1) UNRELEASED; urgency=medium
   *  Update calico to version 3.7.0
 
  -- Alessandro Ratti <alessandro@exoscale.ch> Mon May  6 2019 18:17:07 +0200
+
+calico (0.0-1) UNRELEASED; urgency=medium
+
+  *  Update calico to version 3.7.4
+
+ -- Alessandro Ratti <alessandro@exoscale.ch> Tue Jul  2 09:29:26 CEST 2019

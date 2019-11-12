@@ -9,3 +9,8 @@ Package: calico
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Calico CLI tool and Calico network plugin for CNI
+
+Package: calicoctl
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Calico CLI tool

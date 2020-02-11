@@ -1,10 +1,8 @@
 #!/usr/bin/make -f
 
 DISTRIBUTION = $(shell lsb_release -sc)
-VERSION = 3.7.4
+VERSION = 3.12.0
 PACKAGEVERSION = $(VERSION)-2~$(DISTRIBUTION)0
-URL1 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico-amd64
-URL2 = https://github.com/projectcalico/cni-plugin/releases/download/v$(VERSION)/calico-ipam-amd64
 URL3 = https://github.com/projectcalico/calicoctl/releases/download/v$(VERSION)/calicoctl-linux-amd64
 
 
@@ -12,8 +10,6 @@ URL3 = https://github.com/projectcalico/calicoctl/releases/download/v$(VERSION)/
 	dh $@
 
 override_dh_auto_build:
-	wget -N --progress=dot:mega $(URL1) -O calico
-	wget -N --progress=dot:mega $(URL2) -O calico-ipam
 	wget -N --progress=dot:mega $(URL3) -O calicoctl
 	chmod +x calico*
 

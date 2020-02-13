@@ -1,4 +1,0 @@
-etc/cni/net.d
-opt/cni/bin
-var/log/calico
-var/lib/calico

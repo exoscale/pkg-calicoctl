@@ -9,4 +9,5 @@ Package: calicoctl
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Calico CLI tool
-Replaces: calico
+Replaces: calico,
+          kubernetes-cni

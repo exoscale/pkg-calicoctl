@@ -2,7 +2,7 @@
 
 DISTRIBUTION = $(shell lsb_release -sc)
 VERSION = 3.12.0
-PACKAGEVERSION = $(VERSION)-3~$(DISTRIBUTION)0
+PACKAGEVERSION = $(VERSION)-4~$(DISTRIBUTION)0
 URL3 = https://github.com/projectcalico/calicoctl/releases/download/v$(VERSION)/calicoctl-linux-amd64
 
 

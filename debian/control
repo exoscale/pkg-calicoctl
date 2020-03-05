@@ -1,4 +1,4 @@
-Source: calico
+Source: calicoctl
 Maintainer: Jessica Toscani <jessica@exoscale.ch>
 Build-Depends: debhelper (>= 9),
                wget, ca-certificates, lsb-release,

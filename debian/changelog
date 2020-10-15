@@ -1,3 +1,9 @@
+calicoctl (0.0-5) UNRELEASED; urgency=medium
+
+   *  Calico CLI 3.16.3
+
+ -- Jessica Toscani <jessica@exoscale.ch>  Thu, 15 Oct 2020 11:20:00 +0200
+
 calicoctl (0.0-4) UNRELEASED; urgency=medium
 
    *  Calico CLI 3.16.0

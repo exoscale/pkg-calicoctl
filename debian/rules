@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 DISTRIBUTION = $(shell lsb_release -sc)
-VERSION = 3.16.0
+VERSION = 3.16.3
 PACKAGEVERSION = $(VERSION)-0~$(DISTRIBUTION)0
 URL = https://github.com/projectcalico/calicoctl/releases/download/v$(VERSION)/calicoctl-linux-amd64
 

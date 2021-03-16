@@ -1,8 +1,14 @@
+calicoctl (3.18.1-0+exo1) UNRELEASED; urgency=low
+
+  * New upstream release: Calico CLI 3.18.1
+
+ -- Jessica Toscani <jessica@exoscale.ch>  Mon, 15 Mar 2021 15:20:01 +0100
+
 calicoctl (0.0-6) UNRELEASED; urgency=medium
 
    *  Calico CLI 3.16.5
 
- -- Sebastian Krohn <sebastian.krohn@exoscale.ch> Mon, 16 Nov 2020 15:41:56 +0200
+ -- Sebastian Krohn <sebastian.krohn@exoscale.ch>  Mon, 16 Nov 2020 15:41:56 +0200
 
 calicoctl (0.0-5) UNRELEASED; urgency=medium
 

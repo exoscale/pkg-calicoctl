@@ -1,3 +1,9 @@
+calicoctl (3.21.1-0+exo1) UNRELEASED; urgency=medium
+
+  * New upstream release: Calico CLI 3.21.1
+
+ -- Philippe Chepy <philippe.chepy@exoscale.ch>  Tue, 30 Nov 2021 10:21:01 +0100
+
 calicoctl (3.19.1-0+exo1) UNRELEASED; urgency=medium
 
   * New upstream release: Calico CLI 3.19.1

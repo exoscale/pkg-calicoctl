@@ -1,4 +1,4 @@
-calicoctl (3.22.0-0+exo1) UNRELEASED; urgency=low
+calicoctl (3.22.0-0+exo1) UNRELEASED; urgency=medium
 
   * New upstream release: Calico CLI 3.22.0
 

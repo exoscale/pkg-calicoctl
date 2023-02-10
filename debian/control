@@ -1,8 +1,7 @@
 Source: calicoctl
 Maintainer: Exoscale <ops@exoscale.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 10),
                wget, ca-certificates, lsb-release,
-               dh-systemd,
                zip
 
 Package: calicoctl

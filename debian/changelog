@@ -1,3 +1,9 @@
+calicoctl (3.26.1-0+exo1) UNRELEASED; urgency=medium
+
+  * New upstream release: Calico CLI 3.26.1
+
+ -- Jessica Toscani <jessica@exoscale.ch>  Wed, 09 Aug 2023 14:40:32 +0200
+
 calicoctl (3.25.0-0+exo1) UNRELEASED; urgency=medium
 
   * New upstream release: Calico CLI 3.25.0
